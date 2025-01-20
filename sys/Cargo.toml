@@ -18,7 +18,7 @@ objc = { version = "0.2.7", optional = true }
 
 [build-dependencies]
 apple-bindgen = { path = "../bindgen", version = "0.2.0", default-features=false }
-apple-sdk = "0.4.0"
+apple-sdk = "0.6.0"
 
 [features]
 default = ["objc"]
