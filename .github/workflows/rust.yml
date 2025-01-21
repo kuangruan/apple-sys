@@ -396,3 +396,4 @@ jobs:
         target: aarch64-apple-ios
     - name: Build
       run: cargo build --target=aarch64-apple-ios --manifest-path=sys/Cargo.toml --verbose --features ${{ matrix.feature }}
+
